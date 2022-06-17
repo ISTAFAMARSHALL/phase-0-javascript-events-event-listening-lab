@@ -4,7 +4,7 @@ describe("index.js", () => {
   let input;
 
   beforeEach(function() {
-    input = document.getElementById('input');
+    input = document.querySelector('input');
     sinon.spy(input, 'addEventListener');
   })
 
